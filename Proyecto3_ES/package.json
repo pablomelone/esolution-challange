@@ -1,0 +1,11 @@
+{
+  "name": "subjects",
+  "version": "1.0.0",
+  "description": "Expresa datos de 5 usuarios conocidos",
+  "main": "class.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Antonio Banderas\"",
+  "license": "ISC"
+}

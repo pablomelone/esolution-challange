@@ -27,7 +27,6 @@ const requestListener = function(req,res){
             res.writeHead(200);
             res.end(JSON.stringify(allUsers));
             break;
-
         default:
             res.writheadn(404);
             res.end(JSON.stringify({error:"Not Found"}));    
