@@ -73,31 +73,18 @@ function cartReducer(state, action){
     }
 }
 
-/* function totalReducer(state, action){
-    if (action.type === "add"){
-        return state + action.price; 
-    }else{
-    return state - action.price;
-    }
-} */
-
 export default function TripMaker() {
 
     const [cart, setCart] = useReducer(cartReducer, []);
 
-/*     const [total, setTotal] = useReducer(totalReducer(0)); */
 
     function addTrip(trip){
-        /* const{ name, price} = trip; */
         setCart({trip, type: "add"});
-        /* setTotal({price, type: "add"}) */
     }
 
     function removeTrip(trip){
-            /* const{ name, price} = trip; */
-            setCart({trip, type: "remove"});
-            /* setTotal({price, type: "remove"}) */
-        }
+        setCart({trip, type: "remove"});
+    }
 
 
     const classes = useStyles();    

@@ -35,6 +35,10 @@ const trips = [
     },
 ];
 
+function juancito(){
+    return trips;
+}
+
 export default function TripBuilder(){
     const classes = useStyles();
     return(
